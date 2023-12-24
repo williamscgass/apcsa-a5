@@ -1,0 +1,91 @@
+Test name: testWizardRange
+Points awarded: 10
+Arguments: test wizard range
+Expected: passed
+Result: passed
+
+Test name: testDuel1
+Points awarded: 10
+Arguments: only normal casts
+Expected: Witch@6fffcba5
+Result: Witch@6fffcba5
+
+Test name: testDuel2
+Points awarded: 10
+Arguments: only normal casts, some heals though
+Expected: Witch@2aafb23c
+Result: Witch@2b80d80f
+
+Test name: testDuel3
+Points awarded: 10
+Arguments: only normal casts, make sure heal fails on last bout
+Expected: Witch@2eee9593
+Result: Witch@2eee9593
+
+Test name: testDuel4
+Points awarded: 10
+Arguments: assert health reset after duel started
+Expected: passed
+Result: passed
+
+Test name: testDuel5
+Points awarded: 10
+Arguments: assert that barrier blocks damage
+Expected: 100
+Result: 100
+
+Test name: testDuel6
+Points awarded: 10
+Arguments: assert that barrier only blocks damage on turn casted
+Expected: 100
+Result: 85
+
+Test name: testDuel7
+Points awarded: 5
+Arguments: only normal casts
+Expected: Witch@6ea6d14e
+Result: Witch@6ea6d14e
+
+Test name: testDuel9
+Points awarded: 5
+Arguments: only normal casts, make sure heal fails on last bout
+Expected: Witch@6833ce2c
+Result: Witch@6833ce2c
+
+Test name: testDuel10
+Points awarded: 5
+Arguments: assert health reset after duel started
+Expected: passed
+Result: passed
+
+Test name: testDuel11
+Points awarded: 5
+Arguments: assert that barrier blocks damage
+Expected: 100
+Result: 100
+
+Test name: testDuel12
+Points awarded: 5
+Arguments: assert that barrier only blocks damage on turn casted
+Expected: 85
+Result: 85
+
+Test name: testWitchHeal
+Points awarded: 10
+Arguments: test witch heal
+Expected: 95
+Result: 95
+
+Test name: testRandom
+Points awarded: 1
+Arguments: test random (please alert instructors if this fails)
+Expected: passed
+Result: passed
+
+Test name: testWitchRange
+Points awarded: 10
+Arguments: test witch range
+Expected: passed
+Result: passed
+
+Overall Test Results: 116/100
